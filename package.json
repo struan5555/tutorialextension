@@ -3,7 +3,8 @@
   "displayName": "TutorialExtension",
   "description": "",
   "publisher": "struan230743",
-  "version": "1.1.0",
+  "icon": "media/Logo.png",
+  "version": "1.3.0",
   "engines": {
     "vscode": "^1.86.0"
   },
@@ -11,23 +12,27 @@
     "Other"
   ],
   "activationEvents": [
-    "*"
+    "onLanguage:Java"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
         "command": "tutorialextension.insertSnippet",
-        "title": "Insert Hello World Snippet"
+        "title": "Insert template snippet"
       },
       {
         "command": "tutorialextension.insertBootstrap",
-        "title": "Insert Bootstrap divs"
+        "title": "Insert Bootstrap link"
       },
       {
         "command": "tutorialextension.begin",
         "title": "Begin Webview",
         "category": "Tutorial Webview"
+      },
+      {
+        "command": "tutorialextension.searchWord",
+        "title": "Search Code"
       }
     ]
   },

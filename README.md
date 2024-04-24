@@ -67,6 +67,6 @@ Many new Languages have been added to the WebViews, snippets and completions. a 
 
 ### 1.3.0
 
-
+Code parser has been completed and searches for static and any missed brackets in java, python and html. FIN
 
 **Enjoy!**
